@@ -1,6 +1,6 @@
 // membuat variabel untuk menyimpan nama barang dan harga
 let namaBarang = prompt("Masukkkan Nama Barang:");
-let harga = parseFloat(prompt("Masukan Harga Barang"));
+let harga = Number(prompt("Masukan Harga Barang"));
 
 // membuat variabel untuk menghitung total harga
 
